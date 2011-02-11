@@ -2,7 +2,7 @@
 //  main.m
 //  SenchaPhoneGap
 //
-//  Created by Steve Smith on 2/7/11.
+//  Created by Steve Smith on 2/11/11.
 //  Copyright Chariot Solutions 2011. All rights reserved.
 //
 

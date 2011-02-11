@@ -52,9 +52,6 @@ Demo.views.SpeakerDetails = Ext.extend(Ext.Panel, {
 	},
 
     addContact: function() {
-        alert('getting ready to save contact');
-       sample_contact = { "givenName": "Steve", "familyName" : "Smith"};
-//       navigator.contacts.newContact(sample_contact);
 		var speakerId = Ext.getDom('speakerId').value;
 		var store = Ext.getStore('SpeakerStore');
 		var speaker = store.getById(parseInt(speakerId, 10));
@@ -66,6 +63,7 @@ Demo.views.SpeakerDetails = Ext.extend(Ext.Panel, {
 	   	var newContact = navigator.service.contacts.create();
 	   	newContact.name = contactName;
         newContact.displayName = speaker.get('name');
+	    newContact.nickname = speaker.get('name');
         newContact.note = speaker.get('position');
        	
        	newContact.save(
