@@ -1,0 +1,8 @@
+build/
+bin/
+gen/
+.metadata/
+.project
+.classpath
+.settings
+xcuserdata/

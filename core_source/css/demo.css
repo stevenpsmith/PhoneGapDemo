@@ -1,0 +1,42 @@
+.speakerName {
+	font-weight: bold;
+	vertical-align: text-top;
+	padding: 0;
+}
+
+.speakerPosition {
+	padding-top: 3px;
+	font-size: 0.5em;
+	float: left;
+}
+
+.field {
+    background:#FFFFFF;
+    font-size: 120%;
+    text-indent: -100px;
+    border-bottom: 1px solid #DDD;
+    padding:0.4em 0.4em 0.4em 100px;
+}
+
+.field .label {
+    display: inline-block;
+    color:#666;
+    text-align:right;
+    text-transform:capitalize;
+    width: 100px;
+    padding-right:1em;
+}
+
+.data-set {
+
+	border-bottom-left-radius: 0.4em 0.4em;
+	border-bottom-right-radius: 0.4em 0.4em;
+	border-top-left-radius: 0.4em 0.4em;
+	border-top-right-radius: 0.4em 0.4em;
+	border: 1px solid #DDD;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.699219) 0px 1px 0px;
+	overflow: hidden;
+	padding: 1px 1px 0px;
+}
+
+p {display:inline;}
